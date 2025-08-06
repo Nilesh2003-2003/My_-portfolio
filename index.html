@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8de84b7695.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>N</span>ilesh.</h1>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fas fa-bars menu-icon" onclick="toggleMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div class="one1">
+                    <p>Web Designer</p>
+                    <h1>Hi, I'm <span>Nilesh</span> <br> Maramwar From India .</h1>
+                </div>
+                <div class="two2">
+                    <img src="bunty-removebg-preview.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------about---------------------------->
+    <div id="About">
+        <div class="container">
+            <h1 class="sub-title">About Me</h1>
+            <div class="about-content">
+                <p>Hi, my name is Nilesh Maramwar, and I come from an IT background. I am currently pursuing a B.Tech degree, focusing on enhancing my technical skills through hands-on projects and real-world applications. I am passionate about connecting with industry professionals and organizations to gain valuable experience and contribute to innovative projects in the tech world.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>HTML</span><br>Designing Web</li>
+                        <li><span>CSS</span><br>Web Development</li>
+                        <li><span>Bootstrap</span><br>Responsive Web Designing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Full-Stack Web Developer</span><br>Jan 2025 – Present<br><br>
+                            * Designed and developed full-stack web applications using HTML, CSS, JavaScript, React.js (frontend), and Node.js with Express.js (backend).<br><br>
+                            * Integrated MongoDB for database management with RESTful APIs to enable dynamic data operations and user authentication.
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>10th Year - 2019</span><br>Mahatma Gandhi Mission's Primary & Secondary School, Nerul</li>
+                        <li><span>12th Year - 2021</span><br>Changu Kana Thakur Jr. College</li>
+                        <li><span>B.Tech</span><br>Pursuing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------Services---------------------------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>                                                                                                                                                                                                                                                                                                                       
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I offer a range of web design services for individuals and businesses. I specialize in developing modern interfaces with clean HTML, CSS, and JavaScript, providing ongoing website maintenance, updates, and testing to ensure your site stays secure.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>I provide professional app design services focused on creating clean, intuitive, and user-friendly interfaces for mobile and web applications. My goal is to design apps that engage users and enhance usability.</p>
+                    <a href="#" class="learn1">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I offer professional web development services focused on building fast, functional, and responsive websites. I develop websites using modern technologies like HTML, CSS, JavaScript, and frameworks such as React, ensuring clean and maintainable code.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="workimg1.avif">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you with talented people around the world. Download it from the Play Store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="workimg2.avif">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you with talented people around the world. Download it from the Play Store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="workimg3.avif">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you with talented people around the world. Download it from the Play Store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-------------------------Contact------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Nileshmaramwar03@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9321204038</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Nilesh. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        function toggleMenu() {
+            var navUl = document.querySelector("nav ul");
+            navUl.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
